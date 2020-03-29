@@ -1,24 +1,13 @@
-# README
+# My-Tasks
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Desenvolvi um gerenciador simples de tarefas com Ruby on Rails.
 
-Things you may want to cover:
+A aplicação contempla:
+- Cadastro de um novo usuário (signup)
+- Login
+- CRUD de tarefas
+- Validações dos dados
+- Tarefas concluídas: _Strikethrough_
+- Traduções: _Português_ e _Inglês_
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+![](app/assets/images/gif_2.gif)
