@@ -1,0 +1,63 @@
+pt-BR:
+  greeting: 'Olá, %{name}'
+  select_locale: 'Escolha o idioma'
+  activerecord:
+    attributes:
+      task:
+        title: 'Titulo'
+      user:
+        name: 'Nome'
+        email: 'E-mail'
+        password: 'Senha'
+        password_confirmation: 'Confirme sua senha'
+  errors:
+    form_error_message: 'Verifique o formulário antes de continuar.'
+  flash:
+    must_be_logged_in: 'Você precisa estar logado para acessar esta página.'
+    login:
+      create:
+        alert: 'Email/senha inválidos. Tente novamente!'
+      destroy:
+        notice: 'Você foi deslogado com sucesso!'
+    signup:
+      create:
+        notice: 'Cadastro realizado com sucesso!'
+    task:
+      title: 'Título da Tarefa'
+    tasks:
+      create:
+        notice: 'Tarefa adicionada a lista!'
+      update:
+        notice: 'Tarefa atualizada com sucesso!'
+      destroy:
+        notice: 'Tarefa removida com sucesso!'
+  helpers:
+    actions:
+      tasks:
+        edit: 'Editar'
+        delete: 'Excluir'
+    submit:
+      login: 'Acesse sua conta'
+      update_all: 'Atualize todos'
+      signup: 'Cadastre sua conta'
+      task:
+        create: 'Criar Tarefa'
+        update: 'Atualizar Tarefa'
+      user:
+        create: 'Criar Usuário'
+        update: 'Atualizar Usuário'
+  labels:
+    task:
+      title: 'Título'
+    user:
+      name: 'Nome'
+      email: 'Email'
+      password: 'Senha'
+      password_confirmation: 'Confirma sua senha'
+  menu:
+    login: 'Acesse sua conta'
+    logout: 'Sair'
+    signup: 'Cadastre-se'
+  titles:
+    signup: 'Cadastre-se'
+    login: 'Acesse sua Conta'

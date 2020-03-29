@@ -10,6 +10,17 @@
   </head>
 
   <body>
-    <%= yield %>
+    <div class="page">
+      <%= render 'main_header' %>
+      <%= render 'flash_messages' %>
+      <%= yield %>
+    </div>
   </body>
+  <footer>
+    <p class="language">
+      <%= t('select_locale') %>
+      <%= link_to 'English', '/?locale=en' %>
+      <%= link_to 'Português', '/?locale=pt-BR' %>
+    </p>
+  </footer>
 </html>

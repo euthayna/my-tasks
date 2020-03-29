@@ -1,0 +1,17 @@
+<h2><%= t('titles.login') %></h2>
+
+<%= form_tag login_path do %>
+  <div>
+    <%= label_tag :email, t('labels.user.email') %>
+    <%= email_field_tag :email %>
+  </div>
+
+  <div>
+    <%= label_tag :password, t('labels.user.password') %>
+    <%= password_field_tag :password %>
+  </div>
+
+<div>
+  <%= submit_tag t('helpers.submit.login'), class: 'button' %>
+</div>
+<% end %>

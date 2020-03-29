@@ -1,0 +1,28 @@
+<h2><%= t('titles.signup') %></h2>
+<%= render 'errors_message', record: @user %>
+
+<%= form_for @user, url: signup_path do |f| %>
+  <div>
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+
+  <div>
+    <%= f.label :email %>
+    <%= f.email_field :email %>
+  </div>
+
+  <div>
+    <%= f.label :password %>
+    <%= f.password_field :password %>
+  </div>
+
+  <div>
+    <%= f.label :password_confirmation %>
+    <%= f.password_field :password_confirmation %>
+  </div>
+
+  <div>
+    <%= f.submit t('helpers.submit.signup'), class: 'button' %>
+  </div>
+<% end %>

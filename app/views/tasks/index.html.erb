@@ -1,0 +1,11 @@
+<%= render 'form', task: @task, url: new_task_path %>
+
+<%= form_tag update_tasks_path do %>
+  <ul class="tasks">
+    <%= render @tasks %>
+  </ul>
+
+  <div>
+    <%= submit_tag t('helpers.submit.update_all'), class: 'button' %>
+  </div>
+<% end %>

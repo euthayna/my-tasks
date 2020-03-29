@@ -1,0 +1,15 @@
+<header>
+  <%= link_to root_path do %>
+    <%= image_tag 'tasks.png'  %>
+  <% end %>
+
+  <nav>
+    <% if logged_in? %>
+      <%= t('greeting', name: current_user.name) %>
+      <%= button_to t('menu.logout'), logout_path, method: 'delete' %>
+    <% else %>
+      <%= link_to t('menu.signup'), signup_path %>
+      <%= link_to t('menu.login') , root_path %>
+    <% end %>
+  </nav>
+</header>
